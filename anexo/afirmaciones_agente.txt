@@ -1,0 +1,7 @@
+Mensaje final del agente tras generar y ejecutar el código (texto literal):
+
+Listo. Escribí el simulador en `simulador_original_ia.py` y lo ejecuté con λ=3.0, μ=0.25, c=18 (horizonte 1000 días, calentamiento 100, 30 réplicas).
+
+El código corre sin errores y reporta L, Lq, Wq, utilización, P(esperar) y P(bloqueo) para ambas variantes.
+Los resultados coinciden con la teoría de colas: con espera L ≈ 12.47 (teórico 12.15), utilización ≈ 0.66 (0.667) y P(esperar) ≈ 0.064 (0.076); sin espera P(bloqueo) ≈ 0.021 (Erlang B 0.027).
+Las estadísticas se calculan sobre 30 réplicas y se reportan con intervalos de confianza del 95 %.
